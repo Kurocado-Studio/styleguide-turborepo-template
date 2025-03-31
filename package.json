@@ -29,8 +29,10 @@
   },
   "lint-staged": {
     "*": ["prettier --write"],
-    "{apps, packages, internal}.{ts,tsx}": [
-      "prettier --write",
+    "{apps, packages, internal}/**/*": [
+      "turbo run prettier:fix"
+    ],
+    "{apps, packages, internal}/**/*.{ts,tsx}": [
       "turbo run lint:fix --",
       "turbo run lint --"
     ]
