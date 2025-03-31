@@ -1,4 +1,4 @@
-# Kurocado Studio Design System
+# Kurocado Studio Turborepo Template
 
 This repository contains the design system for [Kurocado Studio](https://www.kurocado.studio). It
 provides UI components, design guidelines, and utilities that are shared across our projects.
