@@ -1,4 +1,4 @@
-import { semanticReleaseAppConfig } from '@internal/config/src/index.js';
+import { semanticReleaseAppConfig } from '@internal/config';
 
 export default {
   // defaults to not release to NPM
