@@ -7,12 +7,6 @@
     "baseUrl": ".",
     "jsx": "preserve"
   },
-  "include": [
-    "src",
-    "tailwind.config.ts",
-    "test",
-    "tsup.config.ts",
-    "setup.web.ts"
-  ],
+  "include": ["src", "test", "setup.web.ts", "tsup.config.ts"],
   "exclude": ["dist", "build", "node_modules"]
 }
