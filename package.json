@@ -1,5 +1,5 @@
 {
-  "name": "@kurocado-studio/design-system",
+  "name": "@kurocado-studio/styleguide-turborepo-template",
   "version": "0.0.0-semantically-released",
   "type": "module",
   "packageManager": "pnpm@9.12.2",
@@ -16,6 +16,7 @@
     "preview-storybook": "turbo run preview-storybook",
     "semantic-release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
     "setup": "pnpm i && turbo run setup",
+    "typecheck": "turbo run typecheck",
     "test": "turbo run test"
   },
   "devDependencies": {

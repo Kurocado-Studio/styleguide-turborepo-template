@@ -13,6 +13,10 @@
       "dependsOn": ["^setup"],
       "cache": false
     },
+    "typecheck": {
+      "dependsOn": ["^setup"],
+      "cache": false
+    },
     "prettier:check": {
       "dependsOn": ["^setup"],
       "cache": false
